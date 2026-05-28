@@ -17,6 +17,7 @@
 	"dependencies": {
 		"@nuxt/eslint": "1.15.2",
 		"@nuxt/ui": "4.8.0",
+		"drizzle-orm": "1.0.0-beta.22",
 		"eslint": "^10.4.0",
 		"nuxt": "^4.4.6",
 		"tailwindcss": "^4.3.0",
@@ -27,6 +28,7 @@
 		"@commitlint/cli": "^21.0.1",
 		"@commitlint/config-conventional": "^21.0.1",
 		"@iconify-json/lucide": "^1.2.109",
+		"drizzle-kit": "1.0.0-beta.22",
 		"eslint": "^10.3.0",
 		"eslint-plugin-format": "^2.0.1",
 		"husky": "^9.1.7",

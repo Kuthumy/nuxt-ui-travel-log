@@ -1,7 +1,8 @@
 import { z } from 'zod'
 
 const EnvSchema = z.object({
-	NODE_ENV: z.string(),
+	NODE_ENV: z.enum(['development', 'production']),
+	DB_FILE_NAME: z.enum(['db.sqlite']),
 })
 
 export type EnvSchema = z.infer<typeof EnvSchema>
