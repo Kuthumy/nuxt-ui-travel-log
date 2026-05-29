@@ -9,7 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    environment: build
+    env:
+      NODE_ENV: ${{ secrets.NODE_ENV }}
+      DB_FILE_NAME: ${{ secrets.DB_FILE_NAME }}
     strategy:
       matrix:
         node-version: [24.x]
